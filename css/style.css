@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-page {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+.header {
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    position: relative;
+    margin-bottom: 186px;
+}
+.conteiner {
+    max-width: 1180px;
+    margin: 0 auto;
+    
+}
+.header__inner {
+   padding: auto 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.header__text {
+    
+}
+.header__text-time {
+    font-family: Nunito Sans;
+    color: #FBB731;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 10px;
+    }
+.header__text-title {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #FAF9F9;
+    margin-bottom: 39px;
+
+}
+.header__text-subtitle {
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 140%; 
+    color: #DEDEDE;
+    margin-bottom: 42px;
+}
+.link {
+    width: 170px;
+    height: 58px;
+    background: #FBB731;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    padding: 20px 45px;
+    margin-bottom: 169px;
+    
+
+}
+.header__img {
+    max-width: 829px;
+    max-height: 862px;
+    position: relative;
+    z-index: 2;
+    
+    }
+.header__bg_yellow {
+    position: absolute;
+    z-index: 1;
+    width: 432px;
+    height: 862px;
+    left: 1118px;
+    top: 0px;
+
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+
+.content {
+}
+.conteiner {
+}
+.content__inner {
+}
+.card-sale {
+    width: 580px;
+    height: 395px;
+    background-image: url(/Images/content/burger\ with\ cola.png);
+}
+.card-sale__sale {
+    background: #F37335;
+    border-radius: 14px;
+    width: 101.89px;
+    height: 28px;
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.card-sale__price {
+}
+.card-sale__discription {
+}
+.card-free {
+}
+.card-free__title {
+}
+.card-free__discription {
+}
+.link {
+}
+
